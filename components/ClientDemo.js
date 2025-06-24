@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import RSCDemo from "./RSCDemo";
 
 export default function ClientDemo({ children }) {
   const [counter, setCounter] = useState(); // <- This is why it's a client component
